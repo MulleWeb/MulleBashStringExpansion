@@ -1,0 +1,39 @@
+{
+   project =
+   {
+      description="🤯 Bash like string expansion";
+      domain="github";
+      name="MulleBashStringExpansion";
+      user="MulleWeb";
+      repo="MulleBashStringExpansion";
+      homepage="https://github.com/MulleWeb/MulleBashStringExpansion";
+      license="BSD-3 Style License"
+   };
+   dependencies =
+   (
+      {
+         description="🚤 Objective-C classes based on the C standard library";
+         domain="github";
+         name="MulleObjCStandardFoundation";
+         repo="MulleObjCStandardFoundation";
+         url="https://github.com/MulleFoundation/MulleObjCStandardFoundation";
+         user="MulleFoundation";
+      },
+      {
+         description="🔑 Key-Value-Coding based on MulleObjCStandardFoundation";
+         domain="github";
+         name="MulleObjCKVCFoundation";
+         repo="MulleObjCKVCFoundation";
+         url="https://github.com/MulleFoundation/MulleObjCKVCFoundation";
+         user="MulleFoundation";
+      },
+      {
+         description="🫅 Search and replace with regular expressions";
+         domain="github";
+         name="MulleObjCRegexFoundation";
+         repo="MulleObjCRegexFoundation";
+         url="https://github.com/MulleFoundation/MulleObjCRegexFoundation";
+         user="MulleFoundation";
+      }
+   )
+}

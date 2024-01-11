@@ -1,0 +1,1 @@
+Does bash-like string expansion like `${foo:-bar}`
