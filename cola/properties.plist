@@ -7,7 +7,7 @@
       user="MulleWeb";
       repo="MulleBashStringExpansion";
       homepage="https://github.com/MulleWeb/MulleBashStringExpansion";
-      license="BSD-3 Style License"
+      license="BSD-3-Clause";
    };
    dependencies =
    (
@@ -28,12 +28,12 @@
          user="MulleFoundation";
       },
       {
-         description="🫅 Search and replace with regular expressions";
+         description="🛸 MulleObjCRegexFoundation does something";
          domain="github";
          name="MulleObjCRegexFoundation";
          repo="MulleObjCRegexFoundation";
          url="https://github.com/MulleFoundation/MulleObjCRegexFoundation";
          user="MulleFoundation";
       }
-   )
+   );
 }
