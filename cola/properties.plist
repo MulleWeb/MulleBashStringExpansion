@@ -12,27 +12,11 @@
    dependencies =
    (
       {
-         description="🚤 Objective-C classes based on the C standard library";
+         description="🧱 MulleFoundationBase amalgamates Foundations projects";
          domain="github";
-         name="MulleObjCStandardFoundation";
-         repo="MulleObjCStandardFoundation";
-         url="https://github.com/MulleFoundation/MulleObjCStandardFoundation";
-         user="MulleFoundation";
-      },
-      {
-         description="🔑 Key-Value-Coding based on MulleObjCStandardFoundation";
-         domain="github";
-         name="MulleObjCKVCFoundation";
-         repo="MulleObjCKVCFoundation";
-         url="https://github.com/MulleFoundation/MulleObjCKVCFoundation";
-         user="MulleFoundation";
-      },
-      {
-         description="🛸 MulleObjCRegexFoundation does something";
-         domain="github";
-         name="MulleObjCRegexFoundation";
-         repo="MulleObjCRegexFoundation";
-         url="https://github.com/MulleFoundation/MulleObjCRegexFoundation";
+         name="MulleFoundationBase";
+         repo="MulleFoundationBase";
+         url="https://github.com/MulleFoundation/MulleFoundationBase";
          user="MulleFoundation";
       }
    );

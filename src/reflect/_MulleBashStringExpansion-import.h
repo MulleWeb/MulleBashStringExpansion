@@ -12,49 +12,19 @@
  */
 
 // To remove the following dependency (headers and library) completely:
-//   `mulle-sde dependency remove MulleObjCStandardFoundation`
-// (Use 35351E39-4E5F-449A-B7A6-B730E7F27E72 instead of MulleObjCStandardFoundation, if there are duplicate entries)
+//   `mulle-sde dependency remove MulleFoundationBase`
+// (Use 55293532-9628-4722-8CE7-9A3C98AE8030 instead of MulleFoundationBase, if there are duplicate entries)
 //
 // You can tweak the following #import with these commands:
-//    remove #import      : `mulle-sde dependency mark MulleObjCStandardFoundation no-header`
-//    rename              : `mulle-sde dependency|library set MulleObjCStandardFoundation include whatever.h`
-//    reorder             : `mulle-sde dependency move MulleObjCStandardFoundation <up|down>`
-//    toggle #import      : `mulle-sde dependency mark MulleObjCStandardFoundation [no-]import`
-//    toggle public       : `mulle-sde dependency mark MulleObjCStandardFoundation [no-]public`
-//    toggle optional     : `mulle-sde dependency mark MulleObjCStandardFoundation [no-]require`
-//    remove for platform : `mulle-sde dependency mark MulleObjCStandardFoundation no-platform-<uname>`
+//    remove #import      : `mulle-sde dependency mark MulleFoundationBase no-header`
+//    rename              : `mulle-sde dependency|library set MulleFoundationBase include whatever.h`
+//    reorder             : `mulle-sde dependency move MulleFoundationBase <up|down>`
+//    toggle #import      : `mulle-sde dependency mark MulleFoundationBase [no-]import`
+//    toggle public       : `mulle-sde dependency mark MulleFoundationBase [no-]public`
+//    toggle optional     : `mulle-sde dependency mark MulleFoundationBase [no-]require`
+//    remove for platform : `mulle-sde dependency mark MulleFoundationBase no-platform-<uname>`
 //        (use `mulle-sourcetree-to-c --unames` to list known values)
-#import <MulleObjCStandardFoundation/MulleObjCStandardFoundation.h>   // MulleObjCStandardFoundation
-
-// To remove the following dependency (headers and library) completely:
-//   `mulle-sde dependency remove MulleObjCKVCFoundation`
-// (Use 7CE63DFD-71A4-49E6-B9E7-22A527129BFA instead of MulleObjCKVCFoundation, if there are duplicate entries)
-//
-// You can tweak the following #import with these commands:
-//    remove #import      : `mulle-sde dependency mark MulleObjCKVCFoundation no-header`
-//    rename              : `mulle-sde dependency|library set MulleObjCKVCFoundation include whatever.h`
-//    reorder             : `mulle-sde dependency move MulleObjCKVCFoundation <up|down>`
-//    toggle #import      : `mulle-sde dependency mark MulleObjCKVCFoundation [no-]import`
-//    toggle public       : `mulle-sde dependency mark MulleObjCKVCFoundation [no-]public`
-//    toggle optional     : `mulle-sde dependency mark MulleObjCKVCFoundation [no-]require`
-//    remove for platform : `mulle-sde dependency mark MulleObjCKVCFoundation no-platform-<uname>`
-//        (use `mulle-sourcetree-to-c --unames` to list known values)
-#import <MulleObjCKVCFoundation/MulleObjCKVCFoundation.h>   // MulleObjCKVCFoundation
-
-// To remove the following dependency (headers and library) completely:
-//   `mulle-sde dependency remove MulleObjCRegexFoundation`
-// (Use 9B8FA9D9-A1FF-4E13-9D01-B36081884AE6 instead of MulleObjCRegexFoundation, if there are duplicate entries)
-//
-// You can tweak the following #import with these commands:
-//    remove #import      : `mulle-sde dependency mark MulleObjCRegexFoundation no-header`
-//    rename              : `mulle-sde dependency|library set MulleObjCRegexFoundation include whatever.h`
-//    reorder             : `mulle-sde dependency move MulleObjCRegexFoundation <up|down>`
-//    toggle #import      : `mulle-sde dependency mark MulleObjCRegexFoundation [no-]import`
-//    toggle public       : `mulle-sde dependency mark MulleObjCRegexFoundation [no-]public`
-//    toggle optional     : `mulle-sde dependency mark MulleObjCRegexFoundation [no-]require`
-//    remove for platform : `mulle-sde dependency mark MulleObjCRegexFoundation no-platform-<uname>`
-//        (use `mulle-sourcetree-to-c --unames` to list known values)
-#import <MulleObjCRegexFoundation/MulleObjCRegexFoundation.h>   // MulleObjCRegexFoundation
+#import <MulleFoundationBase/MulleFoundationBase.h>   // MulleFoundationBase
 
 #ifdef __has_include
 # if __has_include( "_MulleBashStringExpansion-include.h")
