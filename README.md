@@ -90,7 +90,7 @@ all parameters, `@selector(:$::)` for example is defined.
 
 ### Example
 
-You setup an instance of the class with a datasource:
+You setup an instance of the class with a data-source:
 
 ``` objc
    S  *sInstance;
@@ -99,7 +99,7 @@ You setup an instance of the class with a datasource:
    sInstance = [S objectWithDataSource:info];
 ```
 
-Now to expand a valeu from the datasource you use `$:` :
+Now to expand a string from the data-source you use `$:` :
 
 ``` objc
    expanded = [sInstance $:@"c//9/8"];
@@ -145,7 +145,7 @@ Install the requirements:
 |----------------------------------------------|-----------------------
 | [MulleObjCStandardFoundation](https://github.com/MulleFoundation/MulleObjCStandardFoundation)             | 🚤 Objective-C classes based on the C standard library
 | [MulleObjCKVCFoundation](https://github.com/MulleFoundation/MulleObjCKVCFoundation)             | 🔑 Key-Value-Coding based on MulleObjCStandardFoundation
-| [MulleObjCRegexFoundation](https://github.com/MulleFoundation/MulleObjCRegexFoundation)             | 🫅 Search and replace with regular expressions
+| [MulleObjCRegexFoundation](https://github.com/MulleFoundation/MulleObjCRegexFoundation)             | 🛸 MulleObjCRegexFoundation does something
 
 Download the latest [tar](https://github.com/MulleWeb/MulleBashStringExpansion/archive/refs/tags/latest.tar.gz) or [zip](https://github.com/MulleWeb/MulleBashStringExpansion/archive/refs/tags/latest.zip) archive and unpack it.
 
