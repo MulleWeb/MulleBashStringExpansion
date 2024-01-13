@@ -13,7 +13,7 @@
 
 // To remove the following dependency (headers and library) completely:
 //   `mulle-sde dependency remove MulleFoundationBase`
-// (Use 55293532-9628-4722-8CE7-9A3C98AE8030 instead of MulleFoundationBase, if there are duplicate entries)
+// (Use 46EB85C8-7D17-499C-BBCF-212495882D2B instead of MulleFoundationBase, if there are duplicate entries)
 //
 // You can tweak the following #import with these commands:
 //    remove #import      : `mulle-sde dependency mark MulleFoundationBase no-header`

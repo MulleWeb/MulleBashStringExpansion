@@ -144,6 +144,7 @@ Install the requirements:
 | Requirements                                 | Description
 |----------------------------------------------|-----------------------
 | [MulleFoundationBase](https://github.com/MulleFoundation/MulleFoundationBase)             | 🧱 MulleFoundationBase amalgamates Foundations projects
+| [mulle-objc-list](https://github.com/mulle-objc/mulle-objc-list)             | 📒 Lists mulle-objc runtime information contained in executables.
 
 Download the latest [tar](https://github.com/MulleWeb/MulleBashStringExpansion/archive/refs/tags/latest.tar.gz) or [zip](https://github.com/MulleWeb/MulleBashStringExpansion/archive/refs/tags/latest.zip) archive and unpack it.
 
