@@ -143,9 +143,7 @@ Install the requirements:
 
 | Requirements                                 | Description
 |----------------------------------------------|-----------------------
-| [MulleObjCStandardFoundation](https://github.com/MulleFoundation/MulleObjCStandardFoundation)             | 🚤 Objective-C classes based on the C standard library
-| [MulleObjCKVCFoundation](https://github.com/MulleFoundation/MulleObjCKVCFoundation)             | 🔑 Key-Value-Coding based on MulleObjCStandardFoundation
-| [MulleObjCRegexFoundation](https://github.com/MulleFoundation/MulleObjCRegexFoundation)             | 🛸 MulleObjCRegexFoundation does something
+| [MulleFoundationBase](https://github.com/MulleFoundation/MulleFoundationBase)             | 🧱 MulleFoundationBase amalgamates Foundations projects
 
 Download the latest [tar](https://github.com/MulleWeb/MulleBashStringExpansion/archive/refs/tags/latest.tar.gz) or [zip](https://github.com/MulleWeb/MulleBashStringExpansion/archive/refs/tags/latest.zip) archive and unpack it.
 
