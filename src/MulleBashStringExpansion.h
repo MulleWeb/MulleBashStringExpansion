@@ -1,7 +1,7 @@
 #import "import.h"
 
 
-#define MULLE_BASH_STRING_EXPANSION_VERSION  ((0UL << 20) | (0 << 8) | 1)
+#define MULLE_BASH_STRING_EXPANSION_VERSION  ((0UL << 20) | (0 << 8) | 2)
 
 
 static inline unsigned int   MulleBashStringExpansionG_get_version_major( void)

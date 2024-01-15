@@ -35,7 +35,7 @@ enum token_type
    token_expand_lower_case_all,                           // ${parameter,,regex}
                                                           // ${parameter@operator}  NYI
    token_integer    = 0x7FFFFFFE,
-   token_identifier = 0x7FFFFFFF,
+   token_identifier = 0x7FFFFFFF,  // really a keypath now (may contain '.')
 };
 
 
@@ -308,17 +308,30 @@ static int   _parser_skip_to_closer( struct parser *parser,
 }
 
 
-static void   _parser_skip_to_identifier_end( struct parser *parser)
+static void   _parser_skip_to_keypath_end( struct parser *parser)
 {
    assert( mulle_unicode_is_identifierstart( parser->c));
 
    while( _parser_next_character( parser))
-      if( ! mulle_unicode_is_identifiercontinuation( parser->c))
+      if( ! mulle_unicode_is_identifiercontinuation( parser->c) || parser->c != '.')
       {
          _parse_undo_next_character( parser); // dial back
          break;
       }
 }
+
+
+//static void   _parser_skip_to_identifier_end( struct parser *parser)
+//{
+//   assert( mulle_unicode_is_identifierstart( parser->c));
+//
+//   while( _parser_next_character( parser))
+//      if( ! mulle_unicode_is_identifiercontinuation( parser->c))
+//      {
+//         _parse_undo_next_character( parser); // dial back
+//         break;
+//      }
+//}
 
 
 // so we already have parser->c read, now tokenize
@@ -385,7 +398,7 @@ static struct parser_token   _parser_next_token( struct parser *parser)
             return( parser_token_make( token_identifier,
                                        _parser_recall_string( parser)));
       }
-      while( mulle_unicode_is_identifiercontinuation( parser->c));
+      while( mulle_unicode_is_identifiercontinuation( parser->c) || parser->c == '.');
 
       _parse_undo_next_character( parser);
       return( parser_token_make( token_identifier,
@@ -903,7 +916,7 @@ static NSString   *_parser_expand( struct parser *p)
          if( (rc = mulle_unicode_is_identifierstart( p->c)) <= 0)
             break;
 
-         _parser_skip_to_identifier_end( p);  // can't fail
+         _parser_skip_to_keypath_end( p);  // can't fail
 
          s     = _parser_recall_string( p);
          value = _parser_get_value_string( p, s);

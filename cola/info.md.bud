@@ -73,7 +73,8 @@ all parameters, `@selector(:$::)` for example is defined.
 
 ### Example
 
-You setup an instance of the class with a data-source:
+You setup an instance of the class with a data-source, in this case a
+`NSDictionary`:
 
 ``` objc
    S  *sInstance;
