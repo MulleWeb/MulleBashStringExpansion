@@ -90,7 +90,8 @@ all parameters, `@selector(:$::)` for example is defined.
 
 ### Example
 
-You setup an instance of the class with a data-source:
+You setup an instance of the class with a data-source, in this case a
+`NSDictionary`:
 
 ``` objc
    S  *sInstance;
@@ -111,8 +112,9 @@ hidden. String replacement code in a template could look like this then:
 
 ``` twig
 Rename your executable file:
-   mv "" ""
+   mv "{{ filename }}" "{{ [S :filename :".exe" :".bat"] }}"
 ```
+
 ### You are here
 
 ![Overview](overview.dot.svg)
