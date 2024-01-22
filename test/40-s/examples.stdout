@@ -1,0 +1,3 @@
+"foo.bar" -> "foobar"
+"url#https://" -> "www.github.com/archive/archive"
+"zlib%@*" -> "zlib:mulle-c/mulle-container"

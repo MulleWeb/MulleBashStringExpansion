@@ -93,7 +93,9 @@ The `S` class is most useful in MulleScion, to reduce the amount of type-work.
 In MulleScion, the instance is actually also called `S` and the class `S` is
 hidden. String replacement code in a template could look like this then:
 
+{% verbatim %}
 ``` twig
 Rename your executable file:
    mv "{{ filename }}" "{{ [S :filename :".exe" :".bat"] }}"
 ```
+{% endverbatim %}
