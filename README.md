@@ -7,7 +7,7 @@ Does bash-like string expansion like `${foo:-bar}`
 
 | Release Version                                       | Release Notes
 |-------------------------------------------------------|--------------
-| ![Mulle kybernetiK tag](https://img.shields.io/github/tag/MulleWeb/MulleBashStringExpansion.svg?branch=release) [![Build Status](https://github.com/MulleWeb/MulleBashStringExpansion/workflows/CI/badge.svg?branch=release)](//github.com/MulleWeb/MulleBashStringExpansion/actions) | [RELEASENOTES](RELEASENOTES.md) |
+| ![Mulle kybernetiK tag](https://img.shields.io/github/tag/MulleWeb/MulleBashStringExpansion.svg) [![Build Status](https://github.com/MulleWeb/MulleBashStringExpansion/workflows/CI/badge.svg)](//github.com/MulleWeb/MulleBashStringExpansion/actions) | [RELEASENOTES](RELEASENOTES.md) |
 
 
 
