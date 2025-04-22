@@ -8,7 +8,7 @@
 #
 cmake_minimum_required( VERSION 3.13)
 
-project( MulleBashStringExpansion VERSION 0.0.3 LANGUAGES C)
+project( MulleBashStringExpansion VERSION 0.0.4 LANGUAGES C)
 
 # if use embedded project with symlinks and you want to distribute their
 # headers you probably need to turn this on

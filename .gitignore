@@ -70,3 +70,4 @@ build-*
 coverage*.html
 *.gcda
 *.gcno
+cmake-build-debug/
