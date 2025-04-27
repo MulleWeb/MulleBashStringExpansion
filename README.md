@@ -5,9 +5,9 @@
 Does bash-like string expansion like `${foo:-bar}`
 
 
-| Release Version                                       | Release Notes
-|-------------------------------------------------------|--------------
-| ![Mulle kybernetiK tag](https://img.shields.io/github/tag/MulleWeb/MulleBashStringExpansion.svg) [![Build Status](https://github.com/MulleWeb/MulleBashStringExpansion/workflows/CI/badge.svg)](//github.com/MulleWeb/MulleBashStringExpansion/actions) | [RELEASENOTES](RELEASENOTES.md) |
+| Release Version                                       | Release Notes  | AI Documentation
+|-------------------------------------------------------|----------------|---------------
+| ![Mulle kybernetiK tag](https://img.shields.io/github/tag/MulleWeb/MulleBashStringExpansion.svg) [![Build Status](https://github.com/MulleWeb/MulleBashStringExpansion/workflows/CI/badge.svg)](//github.com/MulleWeb/MulleBashStringExpansion/actions) | [RELEASENOTES](RELEASENOTES.md) | [DeepWiki for MulleBashStringExpansion](https://deepwiki.com/MulleWeb/MulleBashStringExpansion)
 
 
 
