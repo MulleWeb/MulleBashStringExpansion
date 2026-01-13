@@ -1,0 +1,32 @@
+{
+   "name" : "MulleBashStringExpansion",
+   "version" : "0.0.5",
+   "description" : "🤯 Bash like string expansion",
+   "keywords" : [],
+   "license" : "BSD-3-Clause",
+   "repo" : "MulleWeb/MulleBashStringExpansion",
+   "src" : [
+      "src/generic/import-private.h",
+      "src/generic/import.h",
+      "src/generic/include-private.h",
+      "src/generic/include.h",
+      "src/generic/MulleObjCLoader+MulleBashStringExpansion.h",
+      "src/generic/MulleObjCLoader+MulleBashStringExpansion.m",
+      "src/MulleBashStringExpansion.h",
+      "src/NSString+MulleBashStringExpansion.h",
+      "src/NSString+MulleBashStringExpansion.m",
+      "src/reflect/objc-loader.inc",
+      "src/reflect/_MulleBashStringExpansion-export.h",
+      "src/reflect/_MulleBashStringExpansion-import-private.h",
+      "src/reflect/_MulleBashStringExpansion-import.h",
+      "src/reflect/_MulleBashStringExpansion-include-private.h",
+      "src/reflect/_MulleBashStringExpansion-include.h",
+      "src/reflect/_MulleBashStringExpansion-provide.h",
+      "src/S.h",
+      "src/S.m"
+   ],
+   "dependencies" : {
+      "MulleFoundation/MulleFoundationBase": "*",
+      "mulle-objc/mulle-objc-list": "*"
+   }
+}
