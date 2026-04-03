@@ -19,5 +19,5 @@ src/S.m
 # contents selected with patternfile ??-source--stage2-sources
 #
 set( STAGE2_SOURCES
-src/generic/MulleObjCLoader+MulleBashStringExpansion.m
+src/generic/MulleObjCDeps+MulleBashStringExpansion.m
 )
