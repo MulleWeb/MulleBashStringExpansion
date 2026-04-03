@@ -15,7 +15,7 @@
 
 #import "NSString+MulleBashStringExpansion.h"
 #import "S.h"
-#import "MulleObjCLoader+MulleBashStringExpansion.h"
+#import "MulleObjCDeps+MulleBashStringExpansion.h"
 
 
 #endif

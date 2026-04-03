@@ -57,6 +57,6 @@ set( PUBLIC_HEADERS
 src/MulleBashStringExpansion.h
 src/NSString+MulleBashStringExpansion.h
 src/S.h
-src/generic/MulleObjCLoader+MulleBashStringExpansion.h
+src/generic/MulleObjCDeps+MulleBashStringExpansion.h
 )
 
