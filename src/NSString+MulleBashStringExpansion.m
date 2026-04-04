@@ -941,7 +941,7 @@ static NSString   *_parser_expand( struct parser *p)
 }
 
 
-@implementation  NSString ( BashExpand)
+@implementation  NSString ( MulleBashStringExpansion)
 
 - (id) mulleBashExpandExpressionWithDataSource:(id) info
 {

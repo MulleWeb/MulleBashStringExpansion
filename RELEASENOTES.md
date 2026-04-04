@@ -1,19 +1,9 @@
 ### 0.0.5
 
-Various small improvements
 
-### 0.0.4
 
-Various small improvements
 
-### 0.0.3
 
-Various small improvements
 
-### 0.0.2
-
-* allow keypaths instead of just only identifiers
-
-### 0.0.1
-
-* Mercyful Release
+* **BREAKING** Renamed MulleObjCLoader(MulleBashStringExpansion) to MulleObjCDeps(MulleBashStringExpansion); update any code referencing MulleObjCLoader.
+* Generated dependency include renamed from objc-loader.inc to objc-deps.inc and reflect headers now import the new category/name.

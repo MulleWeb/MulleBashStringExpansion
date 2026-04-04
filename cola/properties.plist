@@ -8,6 +8,7 @@
       repo="MulleBashStringExpansion";
       homepage="https://github.com/MulleWeb/MulleBashStringExpansion";
       license="BSD-3-Clause";
+      version="0.1.0";
    };
    dependencies =
    (
