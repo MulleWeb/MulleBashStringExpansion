@@ -1,6 +1,6 @@
 {
    "name" : "MulleBashStringExpansion",
-   "version" : "0.0.5",
+   "version" : "0.0.6",
    "description" : "🤯 Bash like string expansion",
    "keywords" : [],
    "license" : "BSD-3-Clause",
