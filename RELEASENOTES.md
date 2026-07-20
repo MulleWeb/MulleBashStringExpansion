@@ -5,5 +5,5 @@
 
 
 
-* **BREAKING** Renamed MulleObjCLoader(MulleBashStringExpansion) to MulleObjCDeps(MulleBashStringExpansion); update any code referencing MulleObjCLoader.
-* Generated dependency include renamed from objc-loader.inc to objc-deps.inc and reflect headers now import the new category/name.
+* **BREAKING** Renamed MulleObjCDeps(MulleBashStringExpansion) to MulleObjCDeps(MulleBashStringExpansion); update any code referencing MulleObjCDeps.
+* Generated dependency include renamed from objc-deps.inc to objc-deps.inc and reflect headers now import the new category/name.
