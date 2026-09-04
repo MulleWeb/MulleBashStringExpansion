@@ -2,7 +2,7 @@
 //  S.m
 //  MulleBashStringExpansion
 //
-//  Copyright (c) 2023 Nat! - Mulle kybernetiK.
+//  Copyright (c) 2024 Nat! - Mulle kybernetiK.
 //  All rights reserved.
 //
 //
