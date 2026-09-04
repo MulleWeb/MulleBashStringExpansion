@@ -15,6 +15,11 @@ Does bash-like string expansion like `${foo:-bar}`
 
 
 
+
+## Documentation & Guides
+
+* [API Summary](asset/dox/api/toc)
+
 ## Supported String Expansions
 
 MulleBashStringExpansion does a subset of the bash string expansions.
