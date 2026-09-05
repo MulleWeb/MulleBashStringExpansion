@@ -58,6 +58,5 @@ src/MulleBashStringExpansion.h
 src/NSString+MulleBashStringExpansion.h
 src/S.h
 src/generic/MulleObjCDeps+MulleBashStringExpansion.h
-src/reflect/_MulleBashStringExpansion-versioncheck.h
 )
 
