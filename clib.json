@@ -1,12 +1,12 @@
 {
    "name" : "MulleBashStringExpansion",
-   "version" : "0.0.6",
+   "version" : "0.0.7",
    "description" : "🤯 Bash like string expansion",
    "keywords" : [],
    "license" : "BSD-3-Clause",
    "repo" : "MulleWeb/MulleBashStringExpansion",
    "src" : [
-      "asset/dox/TOC.md",
+      "asset/dox/api/toc/index.md",
       "src/generic/import-private.h",
       "src/generic/import.h",
       "src/generic/include-private.h",
