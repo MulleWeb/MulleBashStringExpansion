@@ -1,6 +1,6 @@
 {
    "name" : "MulleBashStringExpansion",
-   "version" : "0.0.7",
+   "version" : "0.0.8",
    "description" : "🤯 Bash like string expansion",
    "keywords" : [],
    "license" : "BSD-3-Clause",
@@ -28,6 +28,6 @@
    ],
    "dependencies" : {
       "MulleFoundation/MulleFoundationBase": "*",
-      "mulle-objc/mulle-objc-list": "*"
+      "mulle-objc/mulle-objc-tools": "*"
    }
 }
