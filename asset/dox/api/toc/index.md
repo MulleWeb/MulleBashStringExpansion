@@ -54,7 +54,7 @@ templates.
 Version macros and query functions. All symbols below are copied verbatim.
 
 ```c
-#define MULLE_BASH_STRING_EXPANSION_VERSION  ((0UL << 20) | (0 << 8) | 7)
+#define MULLE_BASH_STRING_EXPANSION_VERSION  ((0UL << 20) | (0 << 8) | 8)
 
 static inline unsigned int   MulleBashStringExpansionG_get_version_major( void)
 ```
